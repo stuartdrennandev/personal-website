@@ -1,2 +1,2 @@
 # personal-website
-Re-learning HTML and CSS through toying around with my own personal website
+Toying around with HTML, CSS etc to make a little personal website
