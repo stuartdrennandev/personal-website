@@ -16,11 +16,14 @@ body {
 
 .nav-wrapper > .left-side > div {
     margin-right: 20px;
-    font-size: 1.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4em;
     text-transform: uppercase;
 }
 
 .nav-wrapper > .right-side > div {
+    font-family: Georgia;
+    font-weight: normal;
     font-size: 1.8em;
     text-transform: uppercase;
 }
@@ -28,7 +31,7 @@ body {
 .nav-link-wrapper {
     height: 22px;
     border-bottom: 1px solid transparent;
-    transition: border-bottom 0.5s;
+    
 }
 
 .nav-link-wrapper a {
@@ -38,9 +41,15 @@ body {
 
 .nav-link-wrapper:hover {
     border-bottom: 1px solid black;
+    transition: border-bottom 0.5s;
 }
 
 .nav-link-wrapper a:hover {
+    color: black;
+    border-bottom: black;
+}
+
+.nav-link-wrapper > .current {
     color: black;
     border-bottom: black;
 }
